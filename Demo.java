@@ -33,7 +33,7 @@ public class Demo {
 
 		HashMap<Integer, Set<String>> tempData = new HashMap();
 
-		BufferedReader br = new BufferedReader(new FileReader("/root/Asso/TEST_DATA.csv"));
+		BufferedReader br = new BufferedReader(new FileReader("/root/Asso/Class_A.csv"));
 		String line = "";
 		Scanner sc = new Scanner(System.in);
 		while ((line = br.readLine()) != null) // returns a Boolean value
